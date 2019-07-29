@@ -9,6 +9,7 @@ type DBBackendType string
 
 // These are valid backend types.
 const (
+	CacheDBBackend   DBBackendType = "cachedb"
 	// GoLevelDBBackend represents goleveldb (github.com/syndtr/goleveldb - most
 	// popular implementation)
 	//   - pure go
